@@ -1,0 +1,16 @@
+git init (moi vao phai ket noi)
+git add .
+
+$ git config --global user.name "TinhNe"
+$ git config --global user.email "trongtinhkt@gmail.com"
+git commit -m "Them file A"
+
+git remote add origin link git hub
+git push -u origin main (day len)
+
+-- Từ sau chỉ cần "git add ."
+git commit -m "them B"
+(git push) không cần (git push -u) tại vì lúc đầu đã kết nối rồi
+
+-- giờ muốn lấy code của thg 1 qua 2
+(git clone) dán cái link project trên github 

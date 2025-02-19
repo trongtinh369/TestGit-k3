@@ -1,3 +1,7 @@
+** LUU Y ** 
+-- GIT LOG xem thông tin các nhánh
+- GIT RESET -- HARD là xóa luôn thg trước nó
+--GIT REVERT HEAD là truy cập vào thg trước nó để tạo ra một bản sao 
 git init (moi vao phai ket noi)
 git add .
 
@@ -5,11 +9,12 @@ $ git config --global user.name "TinhNe"
 $ git config --global user.email "trongtinhkt@gmail.com"
 git commit -m "Them file A"
 
-git remote add origin link git hub
-git push -u origin main (day len)
+(git remote add origin) link git hub
+(git mote -v) kiểm tra kết nối
+(git push -u origin main) (day len)
 
 -- Từ sau chỉ cần "git add ."
-git commit -m "them B"
+(git commit -m "them B")
 (git push) không cần (git push -u) tại vì lúc đầu đã kết nối rồi
 
 -- giờ muốn lấy code của thg 1 qua 2
